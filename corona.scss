@@ -1,0 +1,199 @@
+#crlogo{
+    margin-top: 4%;
+    margin-bottom: 70%;
+    margin-left: 30%;
+    margin-right: 80%;
+    
+}
+
+.menu{
+    display: block;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+   
+    padding: 14%;
+    text-decoration: none;
+    font-size: 11px;
+ 
+    
+
+
+}
+
+#topmenu{
+    display:inline-flex;
+    margin-top: 4.5%;
+    margin-left: 16%;
+    margin-right: 2%;
+}
+#bg1{
+    position:absolute;
+    top: 0;
+    left: 50%;
+    background-image: url(../corona/coronarec1.png),
+                    linear-gradient(-45deg, red, blue);
+                    background-blend-mode: overlay;
+    width: 50%;
+    height: 100vh;
+    overflow-x: hidden;  // to remove white blank space on right and left
+    z-index: -1;
+    
+}
+/*
+.bg2{
+    position:absolute;
+    top: 0;
+    right: 20%;
+    background: url(../corona/coronarec2.png);
+    width: 70%;
+    height: 290vh;
+    
+    z-index: -1;   
+}
+*/
+.bottle{
+    position:absolute;
+    margin-right: auto;
+    margin-left: 44.5%;
+    margin-top: 7%;
+    z-index: 1;
+    animation: beer 2s forwards;    //animation type 
+
+}
+.crlogo{
+    position:absolute;
+    margin-right: auto;
+    margin-left: 3.8%;
+    margin-top: 1.8%;
+    cursor: pointer;
+
+
+}
+.splash{
+    position:absolute;
+    margin: right 0;
+    margin-left: 0px;
+    margin-top: 20%;
+    height: 57vh;
+    overflow-x: hidden;
+    z-index: -1;
+}
+#txt1{
+    color:#E9CB9D;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    line-height: 120%;
+    padding: 0%;
+    margin-top: 16%;
+    margin-left: 32%;
+    margin-right: 44%;
+    font-size: 23px;
+    
+
+}
+#txt2{
+    color:#ffffff;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 0%;
+    margin-top: 23%;
+    margin-left: 61%;
+    margin-right: 4%;
+    font-size: 55px;
+    font-weight: bold;
+    z-index: 2;
+    overflow: hidden;
+    
+
+}
+.fus{
+    position:absolute;
+    margin-right: auto;
+    margin-left: 72%;
+    margin-top: 45%;
+
+
+}
+.insta{
+    position:absolute;
+    margin-right: auto;
+    margin-left: 93%;
+    margin-top: 45%;
+}
+.fb{
+    position:absolute;
+    margin-right: auto;
+    margin-left: 95%;
+    margin-top: 45%;
+
+}
+.twt{
+    position:absolute;
+    margin-right: auto;
+    margin-left: 97%;
+    margin-top: 45.1%;
+
+
+}
+#des{ 
+    position: absolute;
+    color:#E9CB9D;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 0%;
+    margin-top: 30%;
+    margin-left: 65.5%;
+    margin-right: 5%;
+    font-size: 16px;
+    z-index: 1;
+    overflow: hidden;
+
+
+
+}
+/*#one:hover{
+    
+    color: #E9CB9D;
+    border-radius: 2px;
+    // text-decoration: underline;
+    &:active{
+        background-color: aquamarine;
+    }
+}
+*/
+
+/*#one:active, #two:active{
+    background-color: bisque;
+    border-radius: 2%;
+    
+
+}*/
+.menu:active, .menu:active{
+    background-color: rgb(125, 181, 230);
+}
+/*#one{
+    
+    padding: 5px;
+    background: url(../corona/Tips!.png);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+*/
+
+
+@keyframes beer{
+    
+
+    from{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+}
